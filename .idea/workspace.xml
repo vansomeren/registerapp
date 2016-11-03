@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683e7f5f-f479-46ce-8c2f-8a712dbb295c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/register/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/register/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
     </list>
     <ignored path="register.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreateMemberRequest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateMemberRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Models/Member.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/register/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -120,6 +110,18 @@
                 <marker date="1478179360000" expanded="true" signature="3544:3768" ph="..." />
                 <marker date="1478179360000" expanded="true" signature="3556:3766" ph="..." />
                 <marker date="1478179360000" expanded="true" signature="3579:3765" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,7 +159,6 @@
         <option value="$PROJECT_DIR$/app/Models/Register.php" />
         <option value="$PROJECT_DIR$/resources/lang/en/labels.php" />
         <option value="$PROJECT_DIR$/resources/views/register/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/register/index.blade.php" />
@@ -169,6 +170,7 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/register/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/register/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -320,6 +322,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="register" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="register" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -384,12 +404,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478160827775</updated>
-      <workItem from="1478160829940" duration="7967000" />
+      <workItem from="1478160829940" duration="8047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7967000" />
+    <option name="totallyTimeSpent" value="8047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -453,16 +473,6 @@
         <state relative-caret-position="225">
           <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding>
-            <element signature="e#7#392#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,6 +608,16 @@
             <marker date="1478179360000" expanded="true" signature="3544:3768" ph="..." />
             <marker date="1478179360000" expanded="true" signature="3556:3766" ph="..." />
             <marker date="1478179360000" expanded="true" signature="3579:3765" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
