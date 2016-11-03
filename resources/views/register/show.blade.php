@@ -1,7 +1,6 @@
-@include('layouts.header')
+@include('layouts.app')
 
 <div class="mainwrapper">
-    @include('layouts.sidebar')
     <div class="mainpanel">
         <div class="pageheader">
             <div class="media">

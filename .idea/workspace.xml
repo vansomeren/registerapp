@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="683e7f5f-f479-46ce-8c2f-8a712dbb295c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/register/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/register/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/register/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/register/show.blade.php" />
     </list>
     <ignored path="register.iws" />
@@ -76,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/register/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+            <state relative-caret-position="-358">
+              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -99,14 +98,14 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/register/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="390">
               <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/register/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -129,7 +128,7 @@
       <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/register/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="360">
               <caret line="24" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <marker date="1478166358000" expanded="true" signature="2096:2300" ph="..." />
@@ -168,8 +167,8 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_11_03_085144_create_members_table.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/resources/views/register/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/register/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/register/show.blade.php" />
       </list>
     </option>
   </component>
@@ -385,12 +384,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1478160827775</updated>
-      <workItem from="1478160829940" duration="7890000" />
+      <workItem from="1478160829940" duration="7967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7890000" />
+    <option name="totallyTimeSpent" value="7967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -553,7 +552,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/register/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="390">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
@@ -561,7 +560,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/register/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="360">
           <caret line="24" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <marker date="1478166358000" expanded="true" signature="2096:2300" ph="..." />
@@ -574,6 +573,14 @@
             <marker date="1478166358000" expanded="true" signature="3534:3740" ph="..." />
             <marker date="1478166358000" expanded="true" signature="3557:3739" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/register/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -592,14 +599,6 @@
             <marker date="1478179360000" expanded="true" signature="3556:3766" ph="..." />
             <marker date="1478179360000" expanded="true" signature="3579:3765" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/register/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
